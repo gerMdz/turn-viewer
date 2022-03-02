@@ -1,5 +1,4 @@
 import './styles/app.css';
-
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css'
 // import Cookies from 'js-cookie';
@@ -8,7 +7,6 @@ import Vue from 'vue';
 // Vue.use(VueMeta);
 Vue.use(Vuetify);
 // Vue.use(Cookies);
-
 // import Routes from './router';
 // import Store from './store'
 import App from './components/Home';

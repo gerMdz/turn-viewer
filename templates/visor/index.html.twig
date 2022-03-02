@@ -1,14 +1,16 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello VisorController!{% endblock %}
+{% block title %}Visor Turnos MPF Mendoza{% endblock %}
 
 {% block body %}
     <div id="app">
         <v-app v-cloak>
-            <v-app-bar short app >Symfony + Vuetify</v-app-bar>
+            <v-img :src="require('{{ asset('images/logoMPF2.png') }}')" alt="MPF Mendoza">
+
+            <v-app-bar short app >Turnos MPF Mendoza</v-app-bar>
             <v-main>
                 <v-container fluid>
-                    <router-view></router-view>
+{#                    <router-view></router-view>#}
                 </v-container>
             </v-main>
         </v-app>

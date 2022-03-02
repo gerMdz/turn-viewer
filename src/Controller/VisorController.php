@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class VisorController extends AbstractController
 {
-    #[Route('/app/{route}',name: 'vue' )]
+    #[Route('/app',name: 'vue' )]
     public function index(): Response
     {
         return $this->render('visor/index.html.twig', [

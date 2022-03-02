@@ -2,3 +2,7 @@ body {
     background-color: lightgray;
 }
 [v-cloak] { display: none; }
+.display-5 {
+    font-size: 5em !important;
+    margin: 0.5em !important;
+}
