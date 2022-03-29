@@ -1,0 +1,34 @@
+framework:
+    workflows:
+        turno:
+            type: state_machine
+            audit_trail:
+                enabled: "%kernel.debug%"
+            marking_store:
+                type: 'method'
+                property: 'state'
+            supports:
+                - App\Entity\Turno
+            initial_marking: registrado
+            places:
+                - registrado
+                - llamado
+                - atencion
+                - atendido
+                - anulado
+            transitions:
+                llamar:
+                    from: registrado
+                    to:   llamado
+                volver:
+                    from: llamado
+                    to:   registrado
+                anular:
+                    from: llamado
+                    to: anulado
+                atender:
+                    from: llamado
+                    to:   atencion
+                finalizar:
+                    from: atencion
+                    to:   atendido

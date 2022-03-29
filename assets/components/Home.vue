@@ -3,7 +3,6 @@
     <v-img :src="require('/assets/images/logoMPF2.png')" class="" alt="MPF Mendoza"
            max-height="125"
            contain
-
     >
       <template v-slot:placeholder>
         <v-row
