@@ -22,14 +22,13 @@
         "symfony/proxy-manager-bridge": "5.4.*",
         "symfony/runtime": "5.4.*",
         "symfony/twig-bundle": "5.4.*",
+        "symfony/uid": "5.4.*",
         "symfony/web-profiler-bundle": "5.4.*",
         "symfony/webpack-encore-bundle": "^1.14",
         "symfony/workflow": "5.4.*",
         "symfony/yaml": "5.4.*",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0"
-    },
-    "require-dev": {
     },
     "config": {
         "allow-plugins": {
