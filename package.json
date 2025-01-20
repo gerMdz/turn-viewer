@@ -6,7 +6,7 @@
         "core-js": "^3.0.0",
         "file-loader": "^6.0.0",
         "regenerator-runtime": "^0.13.2",
-        "vue": "^3.0",
+        "vue": "^3.5",
         "vue-loader": "^15.9.5",
         "vue-template-compiler": "^2.7.16",
         "webpack-notifier": "^1.6.0"
@@ -21,6 +21,6 @@
     },
     "dependencies": {
         "vue-router": "^4.0.13",
-        "vuetify": "^2.6.10"
+        "vuetify": "^3.7.6"
     }
 }
